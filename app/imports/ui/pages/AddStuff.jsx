@@ -35,6 +35,7 @@ const AddStuff = () => {
         } else {
           swal('Success', 'Item added successfully', 'success');
           formRef.reset();
+          console.log("the system does not like console logs")
         }
       },
     );
